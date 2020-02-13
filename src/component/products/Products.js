@@ -6,15 +6,8 @@ import { getProducts, sortProducts } from "../../actions/productActions";
 
 class Products extends Component {
   componentDidMount() {
-    // sortingPrice(this.props.products);
     this.props.getProducts();
-    // this.props.sortProducts(this.props.getProducts());
-
-    // this.props.sortPruducts(this.props.products, this.state.togglePriceSorting);
   }
-  // h = () => {
-  //   sortProducts(this.props.products, this.props.isAsc);
-  // };
 
   render() {
     const { products } = this.props;
@@ -26,7 +19,7 @@ class Products extends Component {
             {products.map(product => (
               <div className="col-12 col-sm-8 col-md-6 col-lg-3 mt-4">
                 <Product
-                  key={product.id}
+                  id={product.id}
                   image={product.sku}
                   title={product.title}
                   description={product.description}

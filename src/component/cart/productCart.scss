@@ -1,0 +1,15 @@
+.productsInCart {
+  max-width: 20rem;
+}
+.price {
+  font-weight: bold;
+  font-size: medium;
+}
+.deleteFromCart {
+  opacity: 1;
+  transition: opacity 0.35s ease;
+  cursor: pointer;
+}
+.productsInCart:hover + .deleteFromCart {
+  opacity: 0;
+}

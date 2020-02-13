@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import { Select } from "antd";
 import "../layout/asset/base.scss";
 import { connect } from "react-redux";
-import {
-  sortStatus,
-  sortProducts,
-  
-} from "../actions/productActions";
+import { sortStatus, sortProducts } from "../actions/productActions";
 const { Option } = Select;
 class Filter extends Component {
   state = {
@@ -30,7 +26,7 @@ class Filter extends Component {
           <div className="col-md-4">
             <Select
               onChange={this.onChange}
-              defaultValue="Lowest to Highest"
+              defaultValue="sort by price"
               style={{ width: "60%" }}
             >
               <Option value="lowestPrice" name="lowestPrice">

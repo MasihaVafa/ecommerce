@@ -1,12 +1,15 @@
 import {
   GET_PRODUCTS,
   SORT_PRODUCTS_BY_PRICE,
-  SORT_STATUS
+  SORT_STATUS,
+  ADD_TO_CART,
+  DELETE_FROM_CART
 } from "../actions/types.js";
 const initialState = {
   products: [],
   sort: "",
-  isLowestToHighest: true
+  isLowestToHighest: true,
+  cart: []
 };
 
 export default function(state = initialState, action) {
@@ -25,6 +28,16 @@ export default function(state = initialState, action) {
       return {
         ...state,
         isLowestToHighest: action.payload
+      };
+    case ADD_TO_CART:
+      return {
+        ...state,
+        cart: [action.payload, ...state.cart]
+      };
+    case DELETE_FROM_CART:
+      return {
+        ...state,
+        cart: state.cart.filter(cart => cart.id !== action.payload)
       };
     default:
       return state;

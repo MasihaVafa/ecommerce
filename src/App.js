@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Header from "./layout/Header";
-import Base from "./layout/Base";
+import BasePage from "./layout/BasePage";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store";
-import Products from "./component/products/Products";
+import MapL from "./layout/map/mapL";
 import "./App.css";
 import Filter from "./component/Filter";
 import "antd/dist/antd.css";
@@ -11,12 +12,16 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Header />
-        {/* <Intro /> */}
-        <Filter />
-        <Products />
-
-        {/* <Base /> */}
+        <Router>
+          <div className="App">
+            <Header />
+            <Switch>
+              <Route exact path="/" component={BasePage} />
+              <Route exact path="/map" component={MapL} />
+              {/* <Route exact path="/" component={} /> */}
+            </Switch>
+          </div>
+        </Router>
       </Provider>
     );
   }
