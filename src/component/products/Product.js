@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addToCart } from "../../actions/productActions";
+import { Radio } from "antd";
 // import FavoriteIcon from "@material-ui/icons/Favorite";
 import "./product.scss";
 class Product extends Component {
   // method for add to cart
   onClickCart = () => {
     this.props.addToCart(this.props);
-    
   };
 
   render() {
-    const { id, image, title, desctiption, price, size } = this.props;
+    const { key, image, title, desctiption, price, size } = this.props;
     return (
       <div className="productCard">
-        <div className="card">
+        <div className="card ">
           <img
             className="card-img"
             src={`/products/${image}_1.jpg`}
@@ -26,20 +26,18 @@ class Product extends Component {
                 Style: VA33TXRJ5
               </h6> */}
             <p className="card-text ">{desctiption} </p>
-            <div className="options d-flex flex-fill">
-              <select className="custom-select mr-1">
-                <option defaultValue>Color</option>
-                <option value="1">Green</option>
-                <option value="2">Blue</option>
-                <option value="3">Red</option>
-              </select>
-              <select className="custom-select ml-1">
-                <option defaultValue>Size</option>
-                {size.map(availableSizes => (
-                  <option key={id}>{availableSizes}</option>
+            <div className="options d-flex justify-content-center flex-fill">
+              <Radio.Group buttonStyle="solid">
+                {size.map((availableSize) => (
+                  <Radio.Button value={availableSize}>
+                    {availableSize}
+                  </Radio.Button>
                 ))}
-                
-              </select>
+                {/* <Radio.Button value="a">S</Radio.Button>
+                <Radio.Button value="b">M</Radio.Button>
+                <Radio.Button value="c">L</Radio.Button>
+                <Radio.Button value="d">XL</Radio.Button> */}
+              </Radio.Group>
             </div>
             <div className=" d-flex justify-content-between align-items-center">
               <div className="price text-success">

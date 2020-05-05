@@ -4,15 +4,13 @@ import { connect } from "react-redux";
 import { Icon } from "antd";
 import { deleteFromCart } from "../../actions/productActions";
 class ProductInCart extends Component {
-  OnDeleteClick = id => {
+  OnDeleteClick = (id) => {
     this.props.deleteFromCart(id);
   };
   render() {
     const { id, image, title, price, color, size } = this.props.cartprop;
     return (
       <div className="container py-3">
-        {/* {cart.length === 0 ? <div>empty</div> : <div>not empty</div>} */}
-
         <div className=" productsInCart">
           <div className="">
             <div className="row ">
@@ -28,7 +26,11 @@ class ProductInCart extends Component {
               </div>
               {/* div for product image */}
               <div className="col-sm-4">
-                <img src={`/products/${image}_2.jpg`} className="w-100" />
+                <img
+                  alt="product"
+                  src={`/products/${image}_2.jpg`}
+                  className="w-100"
+                />
               </div>
               {/* div for title & size & price of product */}
               <div className="col-sm-7.5">

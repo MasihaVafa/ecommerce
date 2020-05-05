@@ -1,13 +1,42 @@
-.navbar {
-  background-color: #e8e8e8 !important ;
+.siteNav {
+  background-color: #ffffff !important ;
+  box-shadow: 0 3px 10px #d9d9e2;
 }
 
 .navbarIcon {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
 }
 
 .filterBox {
-  margin-top: 2rem;
-  height: 4rem;
+  margin-top: 1.5rem;
+  background-color: rgb(255, 255, 255);
   border-radius: 1rem;
+  border: 1px solid #1890ff;
+  padding: 0.7rem;
+  // position: fixed;
+  .headerFilter {
+    background-color: #dedede;
+    width: 100%;
+    margin: 1rem 0px;
+    div {
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+.withPattern {
+  background-image: url("./pattern.png");
+  background-repeat: repeat space;
+  background-repeat: repeat repeat;
+  background-repeat: round space;
+}
+.title {
+  background-color: #ffffffd9;
+  padding: 0 3rem;
+  color: #007bff !important;
+  border-radius: 5rem;
+}
+.logo {
+  width: 2rem;
 }

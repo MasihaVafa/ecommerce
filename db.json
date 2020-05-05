@@ -83,11 +83,101 @@
     },
     {
       "id": 9,
-      "sku": 11600983276356165,
-      "title": "Crazy Monkey Grey",
+      "sku": 11600983276356164,
+      "title": "Crazy Monkey Grey ",
       "description": "",
       "availableSizes": ["L", "XL"],
       "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 10,
+      "sku": 11600983275356165,
+      "title": "Red capped",
+      "description": "",
+      "availableSizes": ["M", "L", "XL"],
+      "price": 112,
+      "isFreeShipping": true
+    },
+    {
+      "id": 11,
+      "sku": 11600983276306165,
+      "title": "Orange capped",
+      "description": "",
+      "availableSizes": ["M", "L", "XL"],
+      "price": 99.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 12,
+      "sku": 11607983276356165,
+      "title": "Pink Long",
+      "description": "",
+      "availableSizes": ["S", "M", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 13,
+      "sku": 11600987276356165,
+      "title": "Green Long",
+      "description": "",
+      "availableSizes": ["X", "M", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 14,
+      "sku": 11600988276356165,
+      "title": "Grey Long",
+      "description": "",
+      "availableSizes": ["S", "L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 15,
+      "sku": 11600983276316165,
+      "title": "Roundneck",
+      "description": "",
+      "availableSizes": ["M", "L"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 16,
+      "sku": 11600986276356165,
+      "title": "Light Roundneck",
+      "description": "",
+      "availableSizes": ["XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 17,
+      "sku": 1160098376356965,
+      "title": "Blue Roundneck",
+      "description": "",
+      "availableSizes": ["L", "XXL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 18,
+      "sku": 11600983276356165,
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["S", "L"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 18,
+      "sku": 11600583276356165,
+      "title": "Green capped ",
+      "description": "",
+      "availableSizes": ["M", "XL"],
+      "price": 80,
       "isFreeShipping": true
     }
   ]

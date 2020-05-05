@@ -3,3 +3,5 @@ export const SORT_PRODUCTS_BY_PRICE = "SORT_PRODUCTS_BY_PRICE";
 export const SORT_STATUS = "SORT_STATUS";
 export const ADD_TO_CART = "ADD_TO_CART";
 export const DELETE_FROM_CART = "DELETE_FROM_CART";
+export const FILTER_BY_PRICE = "FILTER_BY_PRICE";
+export const FILTER_BY_SIZE = "FILTER_BY_SIZE";

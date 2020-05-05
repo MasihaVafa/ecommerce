@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import MapL from "./layout/map/mapL";
 import "./App.css";
-import Filter from "./component/Filter";
+
 import "antd/dist/antd.css";
 class App extends Component {
   render() {

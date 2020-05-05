@@ -3,26 +3,31 @@ import {
   SORT_PRODUCTS_BY_PRICE,
   SORT_STATUS,
   ADD_TO_CART,
-  DELETE_FROM_CART
+  DELETE_FROM_CART,
+  FILTER_BY_PRICE,
+  FILTER_BY_SIZE,
 } from "./types";
 
-export const getProducts = () => async dispatch => {
-  const res = await fetch("http://localhost:8000/products");
+export const getProducts = () => async (dispatch) => {
+  const res = await fetch(
+    "https://my-json-server.typicode.com/MasihaVafa/ecommerce/products"
+  );
+  // const res = await fetch("http://localhost:8000/products");
   const data = await res.json();
-  // data.sort((a, b) => (a.price > b.price ? 1 : b.price > a.price ? -1 : 0));
+  data.sort((a, b) => (a.price > b.price ? 1 : b.price > a.price ? -1 : 0));
   dispatch({
     type: GET_PRODUCTS,
-    payload: data
+    payload: data,
   });
 };
-export const sortStatus = status => async dispatch => {
+export const sortStatus = (status) => async (dispatch) => {
   dispatch({
     type: SORT_STATUS,
-    payload: status
+    payload: status,
   });
 };
 
-export const sortProducts = (products, isAsc) => dispatch => {
+export const sortProducts = (products, isAsc) => (dispatch) => {
   if (isAsc) {
     products.sort((a, b) =>
       a.price > b.price ? 1 : b.price > a.price ? -1 : 0
@@ -34,58 +39,30 @@ export const sortProducts = (products, isAsc) => dispatch => {
   }
   dispatch({
     type: SORT_PRODUCTS_BY_PRICE,
-    payload: products
+    payload: products,
   });
 };
-export const addToCart = addedProduct => dispatch => {
+export const addToCart = (addedProduct) => (dispatch) => {
   dispatch({
     type: ADD_TO_CART,
-    payload: addedProduct
+    payload: addedProduct,
   });
 };
-export const deleteFromCart = id => dispatch => {
+export const deleteFromCart = (id) => (dispatch) => {
   dispatch({
     type: DELETE_FROM_CART,
-    payload: id
+    payload: id,
   });
 };
-// export const sortPruducts = (products, togglePriceSorting) => dispatch => {
-//   let sortedProducts;
-//   if (togglePriceSorting) {
-//     sortedProducts = products.sort((a, b) => a.price > b.price);
-//   } else {
-//     sortedProducts = products.sort((a, b) => a.price < b.price);
-//   }
-//   dispatch({
-//     type: SORT_PRODUCTS_BY_PRICE,
-//     payload: {
-//       sortedProducts: sortedProducts,
-//       togglePriceSorting: !togglePriceSorting
-//     }
-//   });
-// };
-// export const sortPruducts = () => dispatch => {
-//   this.setState(state => {
-//     if (state.sort !== "") {
-//       state.products.sort((a, b) =>
-//         state.sort === "lowestprice"
-//           ? a.price > b.price
-//             ? 1
-//             : -1
-//           : a.price < b.price
-//           ? 1
-//           : -1
-//       );
-//     } else {
-//       state.products.sort((a, b) => (a.id > b.id ? 1 : -1));
-//     }
-//     return { filteredProducts: state.products };
-//   });
-//   dispatch({
-//     type: SORT_PRODUCTS_BY_PRICE ,
-//     payload : {
-//       sortedProducts : sortedProducts ,
-//       sort : sortstatus
-//     }
-//   })
-// };
+export const filterByPrice = (sliderValue) => (dispatch) => {
+  dispatch({
+    type: FILTER_BY_PRICE,
+    payload: sliderValue,
+  });
+};
+export const filterBySize = (size) => (dispatch) => {
+  dispatch({
+    type: FILTER_BY_SIZE,
+    payload: size,
+  });
+};
