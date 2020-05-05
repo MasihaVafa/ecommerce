@@ -114,7 +114,7 @@
       "title": "Pink Long",
       "description": "",
       "availableSizes": ["S", "M", "XL"],
-      "price": 134.9,
+      "price": 90.9,
       "isFreeShipping": true
     },
     {
@@ -123,7 +123,7 @@
       "title": "Green Long",
       "description": "",
       "availableSizes": ["X", "M", "XL"],
-      "price": 134.9,
+      "price": 90.9,
       "isFreeShipping": true
     },
     {
@@ -132,7 +132,7 @@
       "title": "Grey Long",
       "description": "",
       "availableSizes": ["S", "L", "XL"],
-      "price": 134.9,
+      "price": 90.9,
       "isFreeShipping": true
     },
     {
@@ -141,7 +141,7 @@
       "title": "Roundneck",
       "description": "",
       "availableSizes": ["M", "L"],
-      "price": 134.9,
+      "price": 105,
       "isFreeShipping": true
     },
     {
@@ -150,7 +150,7 @@
       "title": "Light Roundneck",
       "description": "",
       "availableSizes": ["XL"],
-      "price": 134.9,
+      "price": 105,
       "isFreeShipping": true
     },
     {
@@ -159,25 +159,16 @@
       "title": "Blue Roundneck",
       "description": "",
       "availableSizes": ["L", "XXL"],
-      "price": 134.9,
+      "price": 105,
       "isFreeShipping": true
     },
     {
       "id": 18,
       "sku": 11600983276356165,
-      "title": "Crazy Monkey Grey",
+      "title": "Green capped",
       "description": "",
       "availableSizes": ["S", "L"],
-      "price": 134.9,
-      "isFreeShipping": true
-    },
-    {
-      "id": 18,
-      "sku": 11600583276356165,
-      "title": "Green capped ",
-      "description": "",
-      "availableSizes": ["M", "XL"],
-      "price": 80,
+      "price": 100,
       "isFreeShipping": true
     }
   ]
