@@ -1,170 +1,168 @@
 {
   "products": [
-    [
-      {
-        "id": 1,
-        "sku": 18644119330491310,
-        "title": "Sphynx Tie Dye Grey T-Shirt",
-        "description": "Sphynx Tie Dye Grey",
-        "availableSizes": ["X", "L", "XL", "XXL"],
-        "price": 10,
-        "isFreeShipping": true
-      },
-      {
-        "id": 2,
-        "sku": 11854078013954528,
-        "title": "Danger Knife Grey T-Shirt",
-        "description": "Danger Knife Grey",
-        "availableSizes": ["X", "M", "L"],
-        "price": 14.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 3,
-        "sku": 876661122392077,
-        "title": "White DGK Script Tee",
-        "description": "White DGK Script",
-        "availableSizes": ["X", "M", "L"],
-        "price": 14.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 4,
-        "sku": 9197907543445676,
-        "title": "Born On The Streets  T-Shirt",
-        "description": "Born On The Streets",
-        "availableSizes": ["XL"],
-        "price": 25.9,
-        "isFreeShipping": false
-      },
-      {
-        "id": 5,
-        "sku": 10547961582846888,
-        "title": "Tso 3D Short Sleeve T-Shirt A",
-        "description": "Tso 3D Short Sleeve",
-        "availableSizes": ["X", "L", "XL"],
-        "price": 10.9,
-        "isFreeShipping": false
-      },
-      {
-        "id": 6,
-        "sku": 6090484789343891,
-        "title": "Man Tie Dye Cinza Grey T-Shirt",
-        "description": "Man Tie Dye Cinza Grey",
-        "availableSizes": ["XL", "XXL"],
-        "price": 49.9,
-        "isFreeShipping": false
-      },
-      {
-        "id": 7,
-        "sku": 18532669286405344,
-        "title": "Crazy Monkey Black T-Shirt",
-        "description": "1977 Infantil",
-        "availableSizes": ["S"],
-        "style": "Preto com listras brancas",
-        "price": 22.5,
-        "isFreeShipping": true
-      },
-      {
-        "id": 8,
-        "sku": 5619496040738316,
-        "title": "Tso 3D Black T-Shirt",
-        "description": "",
-        "availableSizes": ["XL"],
-        "style": "Azul escuro",
-        "price": 18.7,
-        "isFreeShipping": false
-      },
-      {
-        "id": 9,
-        "sku": 11600983276356164,
-        "title": "Crazy Monkey Grey ",
-        "description": "",
-        "availableSizes": ["L", "XL"],
-        "price": 134.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 10,
-        "sku": 11600983275356164,
-        "title": "Red capped",
-        "description": "",
-        "availableSizes": ["M", "L", "XL"],
-        "price": 112,
-        "isFreeShipping": true
-      },
-      {
-        "id": 11,
-        "sku": 11600983276306164,
-        "title": "Orange capped",
-        "description": "",
-        "availableSizes": ["M", "L", "XL"],
-        "price": 99.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 12,
-        "sku": 11607983276356164,
-        "title": "Pink Long",
-        "description": "",
-        "availableSizes": ["S", "M", "XL"],
-        "price": 90.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 13,
-        "sku": 11600987276356164,
-        "title": "Green Long",
-        "description": "",
-        "availableSizes": ["X", "M", "XL"],
-        "price": 90.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 14,
-        "sku": 11600988276356164,
-        "title": "Grey Long",
-        "description": "",
-        "availableSizes": ["S", "L", "XL"],
-        "price": 90.9,
-        "isFreeShipping": true
-      },
-      {
-        "id": 15,
-        "sku": 11600983276316164,
-        "title": "Roundneck",
-        "description": "",
-        "availableSizes": ["M", "L"],
-        "price": 105,
-        "isFreeShipping": true
-      },
-      {
-        "id": 16,
-        "sku": 11600986276356164,
-        "title": "Light Roundneck",
-        "description": "",
-        "availableSizes": ["XL"],
-        "price": 105,
-        "isFreeShipping": true
-      },
-      {
-        "id": 17,
-        "sku": 1160098376356965,
-        "title": "Blue Roundneck",
-        "description": "",
-        "availableSizes": ["L", "XXL"],
-        "price": 105,
-        "isFreeShipping": true
-      },
-      {
-        "id": 18,
-        "sku": 11600983276356964,
-        "title": "Green capped",
-        "description": "",
-        "availableSizes": ["S", "L"],
-        "price": 100,
-        "isFreeShipping": true
-      }
-    ]
+    {
+      "id": 1,
+      "sku": 18644119330491310,
+      "title": "Sphynx Tie Dye Grey T-Shirt",
+      "description": "Sphynx Tie Dye Grey",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "price": 10,
+      "isFreeShipping": true
+    },
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "Danger Knife Grey T-Shirt",
+      "description": "Danger Knife Grey",
+      "availableSizes": ["X", "M", "L"],
+      "price": 14.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "White DGK Script Tee",
+      "description": "White DGK Script",
+      "availableSizes": ["X", "M", "L"],
+      "price": 14.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 4,
+      "sku": 9197907543445676,
+      "title": "Born On The Streets  T-Shirt",
+      "description": "Born On The Streets",
+      "availableSizes": ["XL"],
+      "price": 25.9,
+      "isFreeShipping": false
+    },
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Tso 3D Short Sleeve T-Shirt A",
+      "description": "Tso 3D Short Sleeve",
+      "availableSizes": ["X", "L", "XL"],
+      "price": 10.9,
+      "isFreeShipping": false
+    },
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "Man Tie Dye Cinza Grey T-Shirt",
+      "description": "Man Tie Dye Cinza Grey",
+      "availableSizes": ["XL", "XXL"],
+      "price": 49.9,
+      "isFreeShipping": false
+    },
+    {
+      "id": 7,
+      "sku": 18532669286405344,
+      "title": "Crazy Monkey Black T-Shirt",
+      "description": "1977 Infantil",
+      "availableSizes": ["S"],
+      "style": "Preto com listras brancas",
+      "price": 22.5,
+      "isFreeShipping": true
+    },
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "Tso 3D Black T-Shirt",
+      "description": "",
+      "availableSizes": ["XL"],
+      "style": "Azul escuro",
+      "price": 18.7,
+      "isFreeShipping": false
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356164,
+      "title": "Crazy Monkey Grey ",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 10,
+      "sku": 11600983275356164,
+      "title": "Red capped",
+      "description": "",
+      "availableSizes": ["M", "L", "XL"],
+      "price": 112,
+      "isFreeShipping": true
+    },
+    {
+      "id": 11,
+      "sku": 11600983276306164,
+      "title": "Orange capped",
+      "description": "",
+      "availableSizes": ["M", "L", "XL"],
+      "price": 99.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 12,
+      "sku": 11607983276356164,
+      "title": "Pink Long",
+      "description": "",
+      "availableSizes": ["S", "M", "XL"],
+      "price": 90.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 13,
+      "sku": 11600987276356164,
+      "title": "Green Long",
+      "description": "",
+      "availableSizes": ["X", "M", "XL"],
+      "price": 90.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 14,
+      "sku": 11600988276356164,
+      "title": "Grey Long",
+      "description": "",
+      "availableSizes": ["S", "L", "XL"],
+      "price": 90.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 15,
+      "sku": 11600983276316164,
+      "title": "Roundneck",
+      "description": "",
+      "availableSizes": ["M", "L"],
+      "price": 105,
+      "isFreeShipping": true
+    },
+    {
+      "id": 16,
+      "sku": 11600986276356164,
+      "title": "Light Roundneck",
+      "description": "",
+      "availableSizes": ["XL"],
+      "price": 105,
+      "isFreeShipping": true
+    },
+    {
+      "id": 17,
+      "sku": 1160098376356965,
+      "title": "Blue Roundneck",
+      "description": "",
+      "availableSizes": ["L", "XXL"],
+      "price": 105,
+      "isFreeShipping": true
+    },
+    {
+      "id": 18,
+      "sku": 11600983276356964,
+      "title": "Green capped",
+      "description": "",
+      "availableSizes": ["S", "L"],
+      "price": 100,
+      "isFreeShipping": true
+    }
   ]
 }
