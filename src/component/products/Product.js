@@ -22,9 +22,7 @@ class Product extends Component {
           />
           <div className="card-body">
             <h4 className="card-title">{title}</h4>
-            {/* <h6 className="card-subtitle mb-2 text-muted">
-                Style: VA33TXRJ5
-              </h6> */}
+
             <p className="card-text ">{desctiption} </p>
             <div className="options d-flex justify-content-center flex-fill">
               <Radio.Group buttonStyle="solid">
@@ -33,10 +31,6 @@ class Product extends Component {
                     {availableSize}
                   </Radio.Button>
                 ))}
-                {/* <Radio.Button value="a">S</Radio.Button>
-                <Radio.Button value="b">M</Radio.Button>
-                <Radio.Button value="c">L</Radio.Button>
-                <Radio.Button value="d">XL</Radio.Button> */}
               </Radio.Group>
             </div>
             <div className=" d-flex justify-content-between align-items-center">
