@@ -11,15 +11,25 @@ class Product extends Component {
   };
 
   render() {
-    const { key, image, title, desctiption, price, size } = this.props;
+    const {
+      key,
+      image,
+      title,
+      desctiption,
+      price,
+      size,
+      isFreeShipping,
+    } = this.props;
     return (
       <div className="productCard">
         <div className="card ">
-          <img
-            className="card-img"
-            src={`/products/${image}_1.jpg`}
-            alt={title}
-          />
+          <div className="product-img">
+            <img
+              className="card-img"
+              src={`/products/${image}_1.jpg`}
+              alt={title}
+            />
+          </div>
           <div className="card-body">
             <h4 className="card-title">{title}</h4>
 
@@ -33,6 +43,16 @@ class Product extends Component {
                 ))}
               </Radio.Group>
             </div>
+            {/* <p className=" d-flex justify-content-center text-success">
+              (Free Shipping)
+            </p> */}
+            {isFreeShipping ? (
+              <p className=" d-flex justify-content-center text-success">
+                (Free Shipping)
+              </p>
+            ) : (
+              <br />
+            )}
             <div className=" d-flex justify-content-between align-items-center">
               <div className="price text-success">
                 <h5 className="mt-4 text-success">${price}</h5>
@@ -41,7 +61,7 @@ class Product extends Component {
                 className="btn btn-danger mt-3"
                 onClick={this.onClickCart}
               >
-                Add to Cart
+                Add to cart
               </button>
             </div>
           </div>

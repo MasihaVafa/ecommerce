@@ -7,7 +7,7 @@
       "description": "Sphynx Tie Dye Grey",
       "availableSizes": ["X", "L", "XL", "XXL"],
       "price": 10,
-      "isFreeShipping": true
+      "isFreeShipping": false
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "description": "Danger Knife Grey",
       "availableSizes": ["X", "M", "L"],
       "price": 14.9,
-      "isFreeShipping": true
+      "isFreeShipping": false
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "description": "White DGK Script",
       "availableSizes": ["X", "M", "L"],
       "price": 14.9,
-      "isFreeShipping": true
+      "isFreeShipping": false
     },
     {
       "id": 4,
@@ -62,7 +62,7 @@
       "availableSizes": ["S"],
       "style": "Preto com listras brancas",
       "price": 22.5,
-      "isFreeShipping": true
+      "isFreeShipping": false
     },
     {
       "id": 8,

@@ -25,6 +25,7 @@ class Products extends Component {
                   description={product.description}
                   price={product.price}
                   size={product.availableSizes}
+                  isFreeShipping ={product.isFreeShipping}
                 />
               </div>
             ))}

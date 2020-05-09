@@ -50,10 +50,9 @@ class Filter extends Component {
       <div className="container">
         <div className="filterBox  justify-content-md-center">
           <div className="row">
-            <div className="col-6 text-center">
-              <h6 className="">6</h6> product{" "}
+            <div className="col-12 text-center">
+              <h6 className="">{this.props.products.length} Shirt Found</h6>
             </div>
-            <div className="col-6 text-center">reset </div>
           </div>
           <div className="row headerFilter">
             <div className="col-12 ">Price Sort</div>
