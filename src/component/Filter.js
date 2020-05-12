@@ -34,7 +34,6 @@ class Filter extends Component {
     });
   };
   onChangeSize = (value) => {
-    console.log("clicked is : " + value);
 
     this.setState({ size: value }, () => {
       this.props.filterBySize(this.state.size);

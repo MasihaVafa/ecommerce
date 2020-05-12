@@ -10,7 +10,6 @@ import {
 const initialState = {
   products: [],
   initProducts: [],
-  sort: "",
   isLowestToHighest: true,
   cart: [],
 };
@@ -45,8 +44,6 @@ export default function (state = initialState, action) {
         cart: state.cart.filter((cart) => cart.id !== action.payload),
       };
     case FILTER_BY_PRICE:
-      console.log("the payload is : " + action.payload);
-
       return {
         ...state,
         products: state.initProducts.filter(
@@ -55,9 +52,7 @@ export default function (state = initialState, action) {
             product.price <= action.payload[1]
         ),
       };
-    case FILTER_BY_SIZE:
-      console.log("action.paload is : " + action.payload);
-
+    case FILTER_BY_SIZE: 
       return {
         ...state,
         products: state.initProducts.filter((product) =>
